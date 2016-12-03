@@ -22,7 +22,7 @@ namespace GoogleMapsAPI.NET.API.Places.Components
         /// time will be reported in the place’s time zone.
         /// </summary>
         [DataMember(Name = "time")]
-        public int Time { get; set; }
+        public string Time { get; set; }
 
         #endregion
         
